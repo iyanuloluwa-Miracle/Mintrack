@@ -2,7 +2,7 @@
   <nav :class="scrolled ? 'bg-opacity-95' : 'bg-opacity-80'" class="fixed w-full py-5 backdrop-blur-md border-b border-white/10 z-50 transition ease">
     <div class="max-w-6xl mx-auto flex justify-between items-center px-10">
       <div class="font-extrabold text-2xl bg-gradient-to-r from-blue-500 via-purple-500 to-teal-400 bg-clip-text text-transparent">
-        FinTrack
+        MinTrack
       </div>
       <ul class="hidden md:flex space-x-10">
         <li v-for="link in links" :key="link.href">
