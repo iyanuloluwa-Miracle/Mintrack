@@ -50,7 +50,7 @@ import { ref, onMounted, onUnmounted } from 'vue';
 
 const links = [
   { href: '#product', text: 'Product' },
-  { href: '#pricing', text: 'Pricing' },
+  { href: '#features', text: 'Feature' },
   { href: '#resources', text: 'Resources' }
 ];
 

@@ -2,7 +2,7 @@
   <section class="relative py-32 px-6 mx-6 bg-white/10 backdrop-blur-xl border border-white/10 rounded-3xl overflow-hidden text-center my-16">
     <div ref="cta" class="relative z-10">
       <h2 class="text-4xl font-extrabold bg-gradient-to-r from-white to-blue-500 bg-clip-text text-transparent mb-4">
-        Be Among the First to Experience FinTrack
+        Be Among the First to Experience MinTrack
       </h2>
       <p class="text-lg text-white/80 mb-8">
         Join thousands of early adopters...
