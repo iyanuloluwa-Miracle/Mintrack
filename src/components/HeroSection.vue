@@ -2,10 +2,10 @@
   <section id="hero" class="relative z-10 flex flex-col items-center justify-center text-center min-h-screen px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
     <div class="max-w-4xl mx-auto">
       <h1 class="font-black text-[clamp(2.5rem,5vw,5rem)] bg-gradient-to-r from-white via-blue-500 to-purple-500 bg-clip-text text-transparent leading-[1.1] sm:leading-tight">
-        Master Your Money with AI Intelligence
+        MinTrack<span class="text-white">.</span><span class="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text">ai</span>
       </h1>
       <p class="mt-6 text-base sm:text-lg text-white/80 max-w-xl mx-auto">
-        Experience the future of expense tracking with AI‑powered insights that help you save smarter and spend wiser.
+         Your intelligent financial companion. Experience the future of expense tracking with AI‑powered insights that help you save smarter and spend wiser.
       </p>
       
       <div class="mt-8 sm:mt-10 flex flex-col sm:flex-row mx-auto bg-white/10 backdrop-blur-xl rounded-2xl sm:rounded-full border border-white/20 p-2 gap-2 sm:gap-4 max-w-lg w-full">
