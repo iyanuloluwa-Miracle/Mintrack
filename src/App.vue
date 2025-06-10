@@ -4,6 +4,7 @@
     <NavBar />
     <HeroSection />
     <FeaturesSection />
+    <ResourcesSection />
     <FinalCTA />
     <Footer />
   </div>
@@ -14,6 +15,7 @@ import ParticleBackground from '../src/components/ParticleBackground.vue';
 import NavBar from '../src/components/NavBar.vue';
 import HeroSection from '../src/components/HeroSection.vue';
 import FeaturesSection from '../src/components/FeatureSection.vue';
+import ResourcesSection from '../src/components/ResourcesSection.vue';
 import FinalCTA from '../src/components/FinalCTA.vue';
 import Footer from '../src/components/Footer.vue';
 </script>
