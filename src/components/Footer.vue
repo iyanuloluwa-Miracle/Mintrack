@@ -4,7 +4,11 @@
       <a v-for="link in links" :key="link.href" :href="link.href" class="text-white/60 hover:text-blue-500 transition">{{ link.text }}</a>
     </div>
     <div class="text-white/40 text-sm">
-      © 2025 FinTrack. All rights reserved.
+      © 2025 MinTrack. All rights reserved.
+    </div>
+
+     <div class="text-white/40 text-sm">
+     Developed by Team MinTrack❤️
     </div>
   </footer>
 </template>
@@ -12,7 +16,6 @@
 <script setup>
 const links = [
   { href: '#product', text: 'Product' },
-  { href: '#pricing', text: 'Pricing' },
   { href: '#resources', text: 'Resources' },
   { href: '#terms', text: 'Terms of Service' },
   { href: '#privacy', text: 'Privacy Policy' }
