@@ -152,7 +152,7 @@ const loading = ref(false);
 const onSubscribe = async () => {
   loading.value = true;
   try {
-    // Simulate API call
+  
     await new Promise(resolve => setTimeout(resolve, 1500));
     email.value = '';
     // Show success message

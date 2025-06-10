@@ -60,27 +60,41 @@
             <!-- Close button -->
             <button 
               @click="closeForm"
-              class="absolute -top-4 -right-4 w-8 h-8 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 transition-colors duration-300 group"
+              class="absolute -top-4 -right-4 w-10 h-10 flex items-center justify-center rounded-full bg-white hover:bg-gray-100 text-gray-900 transition-colors duration-300 group shadow-lg"
             >
-              <svg class="w-5 h-5 text-white transform group-hover:rotate-90 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="w-6 h-6 transform group-hover:rotate-90 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
               </svg>
             </button>
 
             <!-- Modal content -->
             <div class="p-1 rounded-2xl">
-              <iframe
-                ref="formIframe"
-                :src="tallyFormUrl"
-                width="100%"
-                height="500"
-                frameborder="0"
-                marginheight="0"
-                marginwidth="0"
-                title="MinTrack Waitlist"
-                class="rounded-2xl"
-                @load="handleIframeLoad"
-              ></iframe>
+              <div class="relative">
+                <iframe
+                  ref="formIframe"
+                  :src="tallyFormUrl"
+                  width="100%"
+                  height="500"
+                  frameborder="0"
+                  marginheight="0"
+                  marginwidth="0"
+                  title="MinTrack Waitlist"
+                  class="rounded-2xl"
+                  @load="handleIframeLoad"
+                ></iframe>
+                <!-- Cancel button at the bottom -->
+                <div class="absolute bottom-4 right-4">
+                  <button 
+                    @click="closeForm"
+                    class="px-6 py-2 rounded-full bg-white/10 hover:bg-white/20 text-black  font-semibold transition-all duration-300 flex items-center gap-2 group"
+                  >
+                    <span>Cancel</span>
+                    <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
