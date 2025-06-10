@@ -96,9 +96,7 @@ import { useToast } from 'vue-toastification';
 const toast = useToast();
 const showForm = ref(false);
 const formIframe = ref(null);
-// Replace this URL with your Tally form URL after creating the form at tally.so
-// Make sure to use the embed URL, which usually starts with https://tally.so/embed/
-const tallyFormUrl = 'https://tally.so/embed/mRPLRd';
+const tallyFormUrl = 'https://tally.so/r/3ErZqr';
 
 const stats = [
   { label: 'Early Adopters', value: '12,847' },
